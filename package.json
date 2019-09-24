@@ -1,0 +1,19 @@
+{
+  "name": "circle-app-client",
+  "version": "1.0.0",
+  "description": "The client side of \"Circle app\" (Working title), a hobby and groups based app that's a mix of events, locations, and interests groups with a twist.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindsteeleii/circle-app-client.git"
+  },
+  "author": "KD Steele II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindsteeleii/circle-app-client/issues"
+  },
+  "homepage": "https://github.com/kevindsteeleii/circle-app-client#readme"
+}
