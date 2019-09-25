@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
+    polyfill: 'babel-polyfill',
     main: './src/app.js',
     vendor: './src/vendor.js'
   },

@@ -1,4 +1,8 @@
-// NOTE: sample secondary entry point, normally used for things like libraries that don't change oftent
 module.exports = {
-  print: ()=> {console.log('idk')}
+  print: ()=> {console.log('idk')},
+  waiter: async() => {
+    let val = new Promise((res, rej) => resolve('Async-Await works!!!'));
+    let wait = await val;
+    alert(wait);
+  }
 };
